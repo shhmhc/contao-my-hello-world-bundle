@@ -20,5 +20,8 @@
         "psr-4": {
             "Hartmann\\ContaoMyHelloWorldBundle\\": "src/"
         }
+    },
+    "extra": {
+         "contao-manager-plugin": "Hartmann\\ContaoMyHelloWorldBundle\\ContaoManager\\Plugin"
     }
 }
