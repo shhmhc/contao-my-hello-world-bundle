@@ -1,0 +1,24 @@
+{
+    "name": "shhmhc/contao-my-hello-world-bundle",
+    "description": "Contao Hello World Bundle developed from Scratch",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Stefan Hofmann",
+            "homepage": "https://github.com/shhmhc"
+        },
+        {
+            "name": "Contao Community",
+            "homepage": "https://contao.org/contributors"
+        }
+    ],
+    "require": {
+        "contao/core-bundle": "^4.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hartmann\\ContaoMyHelloWorldBundle\\": "src/"
+        }
+    }
+}
